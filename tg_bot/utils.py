@@ -16,10 +16,9 @@ async def give_contact(message: Message):
 
 async def set_main_menu(message: Message):
     await message.answer(
-        "<b>❗ Eslatib o‘tamiz, murojaatingiz faqatgina yo‘l sohasida yangi innovatsion g‘oyalar, "
-        "takliflar yoki ushbu sohada sizni qiynayotgan texnik muammolar (<i>Izoh: shikoyat va arizalar ko‘rib "
-        "chiqilmaydi</i>) hamda yo‘l xo‘jaligi sohasida mutaxassislarning malakasini oshirish bilan bog‘liq "
-        "bo‘lishiga e’tibor qarating!</b>",
+        "<b>❗ Eslatib o‘tamiz, Siz avtomobil yo‘llari qo‘mitasi va uning tizim korxonalaridaga "
+        "korrupsiyaning olidini olish yuzasidan murojaat etishingiz, qonun buzulishini oldini "
+        "olish yuzasidan xabar berishingiz yoki savol va takliflar berishingiz mumkin.</b>",
         reply_markup=main_menu_kb
     )
 
