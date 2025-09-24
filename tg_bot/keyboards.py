@@ -57,6 +57,8 @@ scientific_support_kb = ReplyKeyboardMarkup(
     keyboard=[
         [
             KeyboardButton(text="🛣 Yo‘l sohasida sizni qiynayotgan ilmiy texnik muammolar bo‘yicha yordam"),
+        ],
+        [
             KeyboardButton(text="⬅️ Orqaga"),
         ],
     ], resize_keyboard=True
