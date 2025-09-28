@@ -16,8 +16,7 @@ main_menu_kb = ReplyKeyboardMarkup(
             KeyboardButton(text="📄 Taklif"),
         ],
         [
-            KeyboardButton(text="🆘 Ilmiy yordam so‘rash"),
-            KeyboardButton(text="️🗃 Malaka oshirish kurslari"),
+            KeyboardButton(text="❕ Murojaat"),
         ]
     ], resize_keyboard=True
 )
