@@ -60,9 +60,10 @@ async def send_scientific_support(user_id, support_type, text, phone=''):
             admin,
             f"❕ <b>User ID:</b> <code>{user_id}</code>\n"
             f"📞 <b>Telefon:</b> {phone}\n\n"
-            f"<b>Yordam turi:</b>\n"
-            f"{support_type}\n\n"
-            f"<b>Ilmiy yordam</b>\n"
+            # f"<b>Yordam turi:</b>\n"
+            # f"{support_type}\n\n"
+            # f"<b>Ilmiy yordam</b>\n"
+            f"<b>Murojaat</b>\n"
             f"{text}"
         )
 
