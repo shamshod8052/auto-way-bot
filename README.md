@@ -13,6 +13,11 @@ Botning asosiy maqsadi — **shaffoflikni oshirish**, qonun buzilishlarning oldi
 ## 🔗 Telegram Bot
 👉 [@uzavtoyul_anticorBot](https://t.me/uzavtoyul_anticorBot)
 
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/9c8a94ac-4c7b-4565-833a-161062de6d1c" />
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/e4d919b4-c060-4676-b716-480c014fcd76" />
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/346a4140-dbe4-4500-b78f-4ed8b48d5448" />
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/010eb720-14ae-46e7-be5c-3ca73f0b8835" />
+
 ---
 
 ## 🚀 **Texnologiyalar**
