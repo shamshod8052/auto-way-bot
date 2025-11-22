@@ -10,10 +10,10 @@ from tg_bot.utils import send_scientific_support
 router = Router()
 
 
-@router.message(F.text == "🆘 Ilmiy yordam so‘rash")
+@router.message(F.text == "❕ Murojaat")
 async def support_handler(message: Message, state: FSMContext):
-    await message.answer("Ilmiy yordam turini tanlang.", reply_markup=scientific_support_kb)
-    await state.set_state(GetForm.SUPPORT_TYPE)
+    await message.answer("Murojaat matnini kiriting:")
+    await state.set_state(GetForm.SUPPORT)
 
 @router.message(GetForm.SUPPORT_TYPE)
 async def get_support_type_handler(message: Message, state: FSMContext):
