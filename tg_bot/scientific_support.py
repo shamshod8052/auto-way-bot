@@ -1,7 +1,7 @@
 from aiogram import Router, F
 from aiogram.enums import ContentType
 from aiogram.fsm.context import FSMContext
-from aiogram.types import Message
+from aiogram.types import Message, ReplyKeyboardRemove
 
 from tg_bot.keyboards import back_kb, main_menu_kb, scientific_support_kb
 from tg_bot.states import GetForm
@@ -12,7 +12,7 @@ router = Router()
 
 @router.message(F.text == "❕ Murojaat")
 async def support_handler(message: Message, state: FSMContext):
-    await message.answer("Murojaat matnini kiriting:")
+    await message.answer("Murojaat matnini kiriting:", reply_markup=ReplyKeyboardRemove())
     await state.set_state(GetForm.SUPPORT)
 
 @router.message(GetForm.SUPPORT_TYPE)
