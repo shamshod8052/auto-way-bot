@@ -10,6 +10,9 @@ imkoniyatiga ega bo‘ladilar.
 
 Botning asosiy maqsadi — **shaffoflikni oshirish**, qonun buzilishlarning oldini olish va tizimni rivojlantirishga ko‘maklashishdir.
 
+## 🔗 Telegram Bot
+👉 [@uzavtoyul_anticorBot](https://t.me/uzavtoyul_anticorBot)
+
 ---
 
 ## 🚀 **Texnologiyalar**
